@@ -7,17 +7,39 @@ This project is developed in Unity and uses Photon Fusion to provide online gami
 
 The project can be run in either Server or Client mode. This is determined at runtime based on parameters provided on execution. A sample .bat file for running in Server mode is provided.
 
-Please note that this is a difficult project to set up and I can only provide minimal details here, so you really need to know what you're doing with Unity and Photon Fusion if you want to get this working...
+Please note that this is a difficult project to set up and I can only provide basic details here, so you really need to know what you're doing with Unity and Photon Fusion if you want to get this working...
 
-Basic Installation Instructions:
+Unity
+=====
+1. Create a new Unity Core 3D project
+2. Add Input System from Package Manager
 
-- Clone the project from GitHub
-- Install Photon Fusion and generate an App Id (visit Photon Fusion official website for details)
-- Install Photon Fusion KCC Addon (required for online player movement)
+Photon Fusion
+=============
+1. Make sure 'Allow unsafe code' is enabled in Unity Player Setttings or you will get compilation errors when importing Photon Fusion
+2. Download Photon Fusion SDK (you will need to set up a free account first)
+3. Import the downloaded Photon Fusion Unity package Assets -> Import Package -> Custom Package
+4. Create a Fusion App ID on your Dashboard and add it to the Fusion App Id entry box
+5. Download the KCC addon
+6. Import the KCC addon package Assets -> Import Package -> Custom Package
 
-Extra Unity Packages:
+Follow the instructions at https://doc.photonengine.com/fusion/current/fusion-100/fusion-101 if you need further details on adding Photon Fusion to your project.
 
-- Install Unity TextMeshPro package
+Unity
+=====
+1. Copy the Assets & Project Settings folders from your GitHub download into your new Unity project
+4. Create a Builds folder for your project
+5. Open Build Settings and make sure the scenes '0.Launch', 'Lobby' & '2.Game' are in the Build (must be in that order) 
+6. Build your project
+7. Copy the StartServer.bat file from your GitHub download into your Builds folder
+8. Edit the StartServer.bat file to match the name of your build .exe
+
+Running the Game
+================
+1. Run StartServer.bat - this starts the server which runs in the background so you won't see anything. It will appear in Task manager as the name of your exe
+2. Make sure you have the Unity scene 0.Launch open and hit play. This will start the client
+3. When you first run it will ask for a player name, it will remember it so it won't ask again on future runs. If you get a missing camera error, just add one to the 0.Launch scene and restart it.
+4. To test out multiplayer start one client from the built exe and one from the Unity client. Don't click the Ready button until both players are in the room (this is one of the many things that needs to be worked on!)
 
 
 Current functionality:
@@ -35,6 +57,7 @@ Current functionality:
 - Play area boundaries are defined - ball will return to the centre circle after entering the goal or leaving the pitch
 
 You can see some videos of the game in action here: https://collywobbles.net/category/futsal-game/
+
 Some of the older vidoes contain some extra paid-for visual assets which have been removed from the version here on GitHub. They are just scenery and so they do not affect the actual gameplay functionality. The latest video has the scenery removed and is created from the project stored here on GitHub.
 
-I am not currently actively working on this project as I don't currently have the time or inclination. Therefore, I am providing it as is under the GNU Public Licence v3.0 (read full licence for details) so that anyone can work on it to try and develop it further.
+I am not currently actively working on this project as I don't currently have the time or inclination. Therefore, I am providing it as-is under the GNU Public Licence v3.0 (read full licence for details) so that anyone can work on it to try and develop it further.
