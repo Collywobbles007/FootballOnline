@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e22fe99d152d7046b38f0a3336c0d0b, type: 3}
+  m_Name: Futsal3s
+  m_EditorClassIdentifier: 
+  matchTypeName: Futsal
+  matchLength: 10
+  matchLengthUnit: Minutes
+  numPlayers: 4
+  matchSizeName: 3-a-side
