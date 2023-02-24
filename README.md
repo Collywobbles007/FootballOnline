@@ -5,7 +5,7 @@ Footballl Superstars and Stiker Superstars were unique online football games pla
 
 This project is developed in Unity and uses Photon Fusion to provide online gaming functionality. A good knowledge of both of these will be required to enable you to make use of this project.
 
-The project can be run in either Server or Client mode. This is determined at runtime based on parameters provided on execution. A Sample .bat file for running in Server mode is provided.
+The project can be run in either Server or Client mode. This is determined at runtime based on parameters provided on execution. A sample .bat file for running in Server mode is provided.
 
 Current functionality:
 
