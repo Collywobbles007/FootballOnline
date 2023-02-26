@@ -20,7 +20,7 @@ Photon Fusion
 2. Download Photon Fusion SDK (you will need to set up a free account first)
 3. Import the downloaded Photon Fusion Unity package Assets -> Import Package -> Custom Package
 4. Create a Fusion App ID on your Dashboard and add it to the Fusion App Id entry box
-5. Download the KCC addon
+5. Download the Kinematic Character Controller (KCC) Fusion addon (https://doc.photonengine.com/fusion/current/addons/advanced-kcc/overview)
 6. Import the KCC addon package Assets -> Import Package -> Custom Package
 
 Follow the instructions at https://doc.photonengine.com/fusion/current/fusion-100/fusion-101 if you need further details on adding Photon Fusion to your project.
