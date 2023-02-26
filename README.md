@@ -39,7 +39,7 @@ Running the Game
 1. Run StartServer.bat - this starts the server which runs in the background so you won't see anything. It will appear in Task manager as the name of your exe
 2. Make sure you have the Unity scene 0.Launch open and hit play. This will start the client
 3. When you first run it will ask for a player name, it will remember it so it won't ask again on future runs. If you get a missing camera error, just add one to the 0.Launch scene and restart it.
-4. To test out multiplayer start one client from the built exe and one from the Unity client. Don't click the Ready button until both players are in the room (this is one of the many things that needs to be worked on!)
+4. To test out multiplayer start one client from the built exe and one from the Unity client (or send a copy of the build to a friend!). Don't click the Ready button until both players are in the room (this is one of the many things that needs to be worked on!)
 
 Note that the server will stop once the last player leaves unless it crashes. In which case, you will need to stop the server manually using Windows Task Manager. If you are unsure if the server has stopped, always check Task Manager as running it twice will cause issues.
 
