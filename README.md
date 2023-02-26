@@ -3,7 +3,7 @@ An open source project to develop an online football game similar in style to th
 
 Footballl Superstars and Stiker Superstars were unique online football games played in 3rd person mode. Unlike games such as the FIFA Football and Pro Evolution Soccer, the player only controls their own player - all other players are controlled by other people or AI. The goalkeepers are always AI controlled.
 
-This project is developed in Unity and uses Photon Fusion to provide online gaming functionality. A good knowledge of both of these will be required to enable you to make use of this project.
+This project is developed in Unity (last tested with version 2021.3.19f1) and uses Photon Fusion to provide online gaming functionality. A good knowledge of both of these will be required to enable you to make use of this project.
 
 The project can be run in either Server or Client mode. This is determined at runtime based on parameters provided on execution. A sample .bat file for running in Server mode is provided.
 
@@ -58,8 +58,12 @@ Current functionality:
 - Futsal style pitch with goals
 - Play area boundaries are defined - ball will return to the centre circle after entering the goal or leaving the pitch
 
-You can see some videos of the game in action here: https://collywobbles.net/category/futsal-game/
+Known Issues:
+- The screen for entering your name is a bit buggy
+- Ball sometimes disappears when shooting close to the keeper
 
-Some of the older vidoes contain some extra paid-for visual assets which have been removed from the version here on GitHub. They are just scenery and so they do not affect the actual gameplay functionality. The latest video has the scenery removed and is created from the project stored here on GitHub.
+You can see some videos of different versions of the game as it was developed in the development blog: https://collywobbles.net/category/futsal-game/
+
+Some of the older vidoes contain some extra paid-for visual assets (mostly Polygon assets) which have been removed from the version here on GitHub. They are just scenery and so they do not affect the actual gameplay functionality. The latest video has the scenery removed and is created from the project stored here on GitHub.
 
 I am not currently actively working on this project as I don't currently have the time or inclination. Therefore, I am providing it as-is under the GNU Public Licence v3.0 (read full licence for details) so that anyone can work on it to try and develop it further.
