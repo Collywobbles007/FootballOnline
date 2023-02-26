@@ -61,6 +61,9 @@ Current functionality:
 Known Issues:
 - The screen for entering your name is a bit buggy
 - Ball sometimes disappears when shooting close to the keeper
+- No control over number of players in queue
+- Server stops after all players have left the match
+- Lost of missing functionality!
 
 You can see some videos of different versions of the game as it was developed in the development blog: https://collywobbles.net/category/futsal-game/
 
